@@ -1,0 +1,1042 @@
+{
+  "sharp": {
+    "phonetic": "/ʃɑːp/",
+    "meaning": "锋利的；锐利的；尖的",
+    "pos": "adj."
+  },
+  "bleed": {
+    "phonetic": "/bliːd/",
+    "meaning": "流血；失血",
+    "pos": "v."
+  },
+  "survive": {
+    "phonetic": "/sə'vaɪv/",
+    "meaning": "幸存",
+    "pos": "v."
+  },
+  "similar": {
+    "phonetic": "/'sɪmələ(r)/",
+    "meaning": "相像的；相仿的；类似的",
+    "pos": "adj."
+  },
+  "rapid": {
+    "phonetic": "/'ræpɪd/",
+    "meaning": "迅速的；快速的；快捷的",
+    "pos": "adj."
+  },
+  "rapidly": {
+    "phonetic": "/'ræpɪdli/",
+    "meaning": "迅速地；快速地；快捷地",
+    "pos": "adv."
+  },
+  "towards": {
+    "phonetic": "/tə'wɔːdz/(AmE:toward)",
+    "meaning": "向；朝着；接近",
+    "pos": "prep."
+  },
+  "hotel": {
+    "phonetic": "/həʊ'tel/",
+    "meaning": "旅馆；旅社",
+    "pos": "n."
+  },
+  "nothing": {
+    "phonetic": "/'nʌθɪŋ/",
+    "meaning": "没有什么；无关紧要的事",
+    "pos": "pron."
+  },
+  "whether": {
+    "phonetic": "/'weðə(r)/",
+    "meaning": "是否（表示选择或可能性）",
+    "pos": "conj."
+  },
+  "get away": {
+    "phonetic": "",
+    "meaning": "离开；逃离",
+    "pos": ""
+  },
+  "guard": {
+    "phonetic": "/ɡɑːd/",
+    "meaning": "警卫；看守",
+    "pos": "n."
+  },
+  "urge": {
+    "phonetic": "/ɜːdʒ/",
+    "meaning": "敦促；力劝",
+    "pos": "v."
+  },
+  "super": {
+    "phonetic": "/'suːpə(r)/",
+    "meaning": "超级的",
+    "pos": "adj."
+  },
+  "seaside": {
+    "phonetic": "/'siːsaɪd/",
+    "meaning": "海边；海滨",
+    "pos": "n."
+  },
+  "thunder": {
+    "phonetic": "/'θʌndə(r)/",
+    "meaning": "雷；雷声",
+    "pos": "n."
+  },
+  "coast": {
+    "phonetic": "/kəʊst/",
+    "meaning": "海岸；海滨",
+    "pos": "n."
+  },
+  "rise": {
+    "phonetic": "/raɪz/",
+    "meaning": "上涨；升高",
+    "pos": "v."
+  },
+  "injured": {
+    "phonetic": "/'ɪndʒəd/",
+    "meaning": "受伤的",
+    "pos": "adj."
+  },
+  "rescue": {
+    "phonetic": "/'reskjuː/",
+    "meaning": "营救；援救",
+    "pos": "n.&v."
+  },
+  "tent": {
+    "phonetic": "/tent/",
+    "meaning": "帐篷",
+    "pos": "n."
+  },
+  "novel": {
+    "phonetic": "/'nɒvl/",
+    "meaning": "小说",
+    "pos": "n."
+  },
+  "magical": {
+    "phonetic": "/'mædʒɪkl/",
+    "meaning": "魔法的；神奇的",
+    "pos": "adj."
+  },
+  "cheerful": {
+    "phonetic": "/'tʃɪəfl/",
+    "meaning": "开朗的；乐观的",
+    "pos": "adj."
+  },
+  "bad-tempered": {
+    "phonetic": "/ˌbæd 'tempəd/",
+    "meaning": "易怒的；爱发脾气的",
+    "pos": "adj."
+  },
+  "caring": {
+    "phonetic": "/'keərɪŋ/",
+    "meaning": "关心他人的；体贴的",
+    "pos": "adj."
+  },
+  "doubtful": {
+    "phonetic": "/'daʊtfl/",
+    "meaning": "怀疑的；不确定的",
+    "pos": "adj."
+  },
+  "firm": {
+    "phonetic": "/fɜːm/",
+    "meaning": "坚定的；坚决的",
+    "pos": "adj."
+  },
+  "tool": {
+    "phonetic": "/tuːl/",
+    "meaning": "工具",
+    "pos": "n."
+  },
+  "seed": {
+    "phonetic": "/siːd/",
+    "meaning": "种子；籽",
+    "pos": "n."
+  },
+  "knife": {
+    "phonetic": "/naɪf/",
+    "meaning": "(pl.knives)刀",
+    "pos": "n."
+  },
+  "fork": {
+    "phonetic": "/fɔːk/",
+    "meaning": "叉；餐叉",
+    "pos": "n."
+  },
+  "packet": {
+    "phonetic": "/'pækɪt/",
+    "meaning": "密封小袋",
+    "pos": "n."
+  },
+  "dead": {
+    "phonetic": "/ded/",
+    "meaning": "死的；枯萎的",
+    "pos": "adj."
+  },
+  "cheerleader": {
+    "phonetic": "/'tʃɪəliːdə(r)/",
+    "meaning": "啦啦队队员；支持者",
+    "pos": "n."
+  },
+  "yourself": {
+    "phonetic": "/jɔː'self/",
+    "meaning": "(pl.yourselves)你自己",
+    "pos": "pron."
+  },
+  "hers": {
+    "phonetic": "/hɜːz/",
+    "meaning": "她的；属于她的",
+    "pos": "pron."
+  },
+  "whenever": {
+    "phonetic": "/wen'evə(r)/",
+    "meaning": "无论何时；每当",
+    "pos": "conj."
+  },
+  "be mean to sb": {
+    "phonetic": "",
+    "meaning": "对某人刻薄",
+    "pos": ""
+  },
+  "hardly": {
+    "phonetic": "/'hɑːdli/",
+    "meaning": "几乎不；几乎没有",
+    "pos": "adv."
+  },
+  "stare": {
+    "phonetic": "/steə(r)/",
+    "meaning": "盯着看；凝视；注视",
+    "pos": "v."
+  },
+  "stare at": {
+    "phonetic": "",
+    "meaning": "盯着看",
+    "pos": ""
+  },
+  "hang": {
+    "phonetic": "/hæŋ/",
+    "meaning": "悬挂；吊",
+    "pos": "v."
+  },
+  "hang out": {
+    "phonetic": "",
+    "meaning": "常去某处",
+    "pos": ""
+  },
+  "dig": {
+    "phonetic": "/dɪɡ/",
+    "meaning": "挖(土)；掘(地)",
+    "pos": "v."
+  },
+  "neither": {
+    "phonetic": "/'naɪðə(r)/",
+    "meaning": "两者都不",
+    "pos": "pron.&det."
+  },
+  "as if": {
+    "phonetic": "",
+    "meaning": "好像；仿佛",
+    "pos": ""
+  },
+  "lie": {
+    "phonetic": "/laɪ/",
+    "meaning": "躺；平躺",
+    "pos": "v."
+  },
+  "ache": {
+    "phonetic": "/eɪk/",
+    "meaning": "疼痛；(身体某部位的)疼痛",
+    "pos": "v./n."
+  },
+  "joke": {
+    "phonetic": "/dʒəʊk/",
+    "meaning": "玩笑；笑话",
+    "pos": "n."
+  },
+  "terribly": {
+    "phonetic": "/'terəbli/",
+    "meaning": "非常糟地；严重地",
+    "pos": "adv."
+  },
+  "finish": {
+    "phonetic": "/'fɪnɪʃ/",
+    "meaning": "完成；做好；(使)结束",
+    "pos": "v."
+  },
+  "over the moon": {
+    "phonetic": "",
+    "meaning": "欣喜若狂",
+    "pos": ""
+  },
+  "especially": {
+    "phonetic": "/ɪ'speʃəli/",
+    "meaning": "尤其；特别；非常",
+    "pos": "adv."
+  },
+  "valuable": {
+      "phonetic": "/ˈvæljuəbl/",
+      "meaning": "很有用的；很重要的；宝贵的",
+      "pos": "adj."
+  },
+  "pie": {
+      "phonetic": "/paɪ/",
+      "meaning": "果馅饼；果馅派",
+      "pos": "n."
+  },
+  "pie chart": {
+      "phonetic": "/ˈpaɪ tʃɑːt/",
+      "meaning": "饼状图",
+      "pos": "n."
+  },
+  "percentage": {
+      "phonetic": "/pəˈsentɪdʒ/",
+      "meaning": "百分率；百分比",
+      "pos": "n."
+  },
+  "account for": {
+      "phonetic": "",
+      "meaning": "（数量上、比例上）占",
+      "pos": ""
+  },
+  "fashion": {
+      "phonetic": "/ˈfæʃn/",
+      "meaning": "时尚",
+      "pos": "n."
+  },
+  "trainers": {
+      "phonetic": "/ˈtreɪnəz/",
+      "meaning": "(pl.)运动鞋；便鞋",
+      "pos": "n."
+  },
+  "decoration": {
+      "phonetic": "/ˌdekəˈreɪʃn/",
+      "meaning": "装饰品；装饰",
+      "pos": "n."
+  },
+  "afford": {
+      "phonetic": "/əˈfɔːd/",
+      "meaning": "买得起；(有时间)做某事；承担得起",
+      "pos": "v."
+  },
+  "changeable": {
+      "phonetic": "/ˈtʃeɪndʒəbl/",
+      "meaning": "易变的；常变的",
+      "pos": "adj."
+  },
+  "energetic": {
+      "phonetic": "/ˌenəˈdʒetɪk/",
+      "meaning": "精力充沛的；充满活力的",
+      "pos": "adj."
+  },
+  "fashionable": {
+      "phonetic": "/ˈfæʃnəbl/",
+      "meaning": "流行的；时髦的",
+      "pos": "adj."
+  },
+  "flowery": {
+      "phonetic": "/ˈflaʊəri/",
+      "meaning": "用花装饰的",
+      "pos": "adj."
+  },
+  "outfit": {
+      "phonetic": "/ˈaʊtfɪt/",
+      "meaning": "全套服装；装束",
+      "pos": "n."
+  },
+  "narrow": {
+      "phonetic": "/ˈnærəʊ/",
+      "meaning": "狭窄的；窄小的",
+      "pos": "adj."
+  },
+  "baggy": {
+      "phonetic": "/ˈbæɡi/",
+      "meaning": "宽松的",
+      "pos": "adj."
+  },
+  "advertising": {
+      "phonetic": "/ˈædvətaɪzɪŋ/",
+      "meaning": "广告活动；广告业；广告",
+      "pos": "n."
+  },
+  "a great deal of": {
+      "phonetic": "",
+      "meaning": "很多；大量",
+      "pos": ""
+  },
+  "advertisement": {
+      "phonetic": "/ədˈvɜːtɪsmənt/",
+      "meaning": "(=ad)广告；启事",
+      "pos": "n."
+  },
+  "image": {
+      "phonetic": "/ˈɪmɪdʒ/",
+      "meaning": "形象；印象；图像",
+      "pos": "n."
+  },
+  "pioneer": {
+      "phonetic": "/ˌpaɪəˈnɪə(r)/",
+      "meaning": "先锋；先驱；带头人",
+      "pos": "n."
+  },
+  "influencer": {
+      "phonetic": "/ˈɪnfluənsə(r)/",
+      "meaning": "有影响力的人",
+      "pos": "n."
+  },
+  "jewellery": {
+      "phonetic": "/ˈdʒuːəlri/",
+      "meaning": "(AmE jewelry)珠宝；首饰",
+      "pos": "n."
+  },
+  "attract": {
+      "phonetic": "/əˈtrækt/",
+      "meaning": "吸引；引起……的好感",
+      "pos": "v."
+  },
+  "fit": {
+      "phonetic": "/fɪt/",
+      "meaning": "(形状和尺寸)适合，合身",
+      "pos": "v."
+  },
+  "relaxed": {
+      "phonetic": "/rɪˈlækst/",
+      "meaning": "放松的；自在的",
+      "pos": "adj."
+  },
+  "mention": {
+      "phonetic": "/ˈmenʃn/",
+      "meaning": "提到；写到；说到",
+      "pos": "v."
+   },
+   "grade": {
+      "phonetic": "/ɡreɪd/",
+      "meaning": "分数",
+      "pos": "n."
+  },
+  "interest": {
+      "phonetic": "/ˈɪntrəst/",
+      "meaning": "兴趣；爱好",
+      "pos": "n."
+  },
+   "disaster": {
+      "phonetic": "/dɪˈzɑːstə(r)/",
+      "meaning": "灾难；灾害",
+      "pos": "n."
+  },
+  "flood": {
+      "phonetic": "/flʌd/",
+      "meaning": "洪水；水灾",
+      "pos": "n."
+  },
+  "earthquake": {
+      "phonetic": "/ˈɜːθkweɪk/",
+      "meaning": "地震",
+      "pos": "n."
+  },
+  "terrible": {
+      "phonetic": "/ˈterəbl/",
+      "meaning": "非常讨厌的；可怕的",
+      "pos": "adj."
+  },
+  "force": {
+      "phonetic": "/fɔːs/",
+      "meaning": "n.力；力量 v.强迫，迫使(某人做某事)",
+      "pos": "n./v."
+  },
+  "injury": {
+      "phonetic": "/ˈɪndʒəri/",
+      "meaning": "伤害；损伤",
+      "pos": "n."
+  },
+  "death": {
+      "phonetic": "/deθ/",
+      "meaning": "死；死亡",
+      "pos": "n."
+  },
+  "destroy": {
+      "phonetic": "/dɪˈstrɔɪ/",
+      "meaning": "摧毁；破坏",
+      "pos": "v."
+  },
+  "injure": {
+      "phonetic": "/ˈɪndʒə(r)/",
+       "meaning": "伤害；使受伤",
+       "pos": "v."
+  },
+  "effect": {
+      "phonetic": "/ɪˈfekt/",
+      "meaning": "影响；作用",
+      "pos": "n."
+  },
+  "Rd": {
+      "phonetic": "",
+      "meaning": "(=road)路；道路",
+      "pos": "abbr."
+  },
+  "exam": {
+      "phonetic": "/ɪɡˈzæm/",
+      "meaning": "(=examination)(笔头、口头或操作)考试",
+      "pos": "n."
+  },
+  "typhoon": {
+      "phonetic": "/taɪˈfuːn/",
+      "meaning": "台风",
+      "pos": "n."
+  },
+  "battery": {
+      "phonetic": "/ˈbætri/",
+      "meaning": "电池",
+      "pos": "n."
+  },
+  "case": {
+      "phonetic": "/keɪs/",
+      "meaning": "具体情况；事例；实例",
+      "pos": "n."
+  },
+  "in case": {
+      "phonetic": "",
+      "meaning": "以防；以防万一",
+      "pos": ""
+  },
+  "go off": {
+      "phonetic": "",
+      "meaning": "断电",
+      "pos": ""
+  },
+  "pick up": {
+      "phonetic": "",
+      "meaning": "增强；改善；收拾",
+      "pos": ""
+  },
+  "lock": {
+      "phonetic": "/lɒk/",
+      "meaning": "锁住；把……锁起来",
+      "pos": "v."
+  },
+  "anyway": {
+      "phonetic": "/ˈeniweɪ/",
+      "meaning": "不过；总之；而且；加之",
+      "pos": "adv."
+  },
+  "anybody": {
+      "phonetic": "/ˈenibɒdi/",
+      "meaning": "(=anyone)任何人；随便哪一个人",
+      "pos": "pron."
+  },
+  "low-lying": {
+      "phonetic": "/ˌləʊ ˈlaɪɪŋ/",
+      "meaning": "低洼的",
+      "pos": "adj."
+  },
+  "cancel": {
+      "phonetic": "/ˈkænsl/",
+      "meaning": "取消；终止",
+      "pos": "v."
+  },
+  "necessary": {
+      "phonetic": "/ˈnesəsəri/",
+      "meaning": "必要的；必需的",
+      "pos": "adj."
+  },
+  "electronic": {
+      "phonetic": "/ɪˌlekˈtrɒnɪk/",
+      "meaning": "电子的",
+      "pos": "adj."
+  },
+  "to one's surprise": {
+    "phonetic": "",
+    "meaning": "令某人惊讶的是",
+    "pos": ""
+  },
+  "turn ...into": {
+    "phonetic": "",
+    "meaning": "使……变成",
+    "pos": ""
+  },
+  "life-saving": {
+    "phonetic": "/ˈlaɪf seɪvɪŋ/",
+    "meaning": "救命的；救生的",
+    "pos": "adj."
+  },
+  "course": {
+    "phonetic": "/kɔːs/",
+    "meaning": "进程；课程",
+    "pos": "n."
+  },
+  "treat": {
+    "phonetic": "/triːt/",
+    "meaning": "医治；治疗",
+    "pos": "v."
+  },
+  "serious": {
+    "phonetic": "/ˈsɪəriəs/",
+    "meaning": "严重的；严肃的",
+    "pos": "adj."
+  },
+  "medical": {
+    "phonetic": "/ˈmedɪkl/",
+    "meaning": "医学的；医疗的",
+    "pos": "adj."
+  },
+  "light up": {
+    "phonetic": "",
+    "meaning": "使……变亮",
+    "pos": ""
+  },
+  "volunteer": {
+    "phonetic": "/ˌvɒlənˈtɪə(r)/",
+    "meaning": "自愿做；义务做；无偿做",
+    "pos": "v."
+  },
+  "herself": {
+    "phonetic": "/hɜːˈself/",
+    "meaning": "（用作女性的反身代词）她自己，自己",
+    "pos": "pron."
+  },
+  "keep in touch": {
+    "phonetic": "",
+    "meaning": "保持联系",
+    "pos": ""
+  },
+  "spare": {
+    "phonetic": "/speə(r)/",
+    "meaning": "空闲的",
+    "pos": "adj."
+  },
+  "mall": {
+    "phonetic": "/mɔːl/",
+    "meaning": "购物商场；购物广场",
+    "pos": "n."
+  },
+  "sale": {
+    "phonetic": "/seɪl/",
+    "meaning": "出售；特价销售",
+    "pos": "n."
+  },
+  "payment": {
+    "phonetic": "/ˈpeɪmənt/",
+    "meaning": "支付；付款；收款",
+    "pos": "n."
+  },
+  "cash": {
+    "phonetic": "/kæʃ/",
+    "meaning": "现金",
+    "pos": "n."
+  },
+  "honey": {
+    "phonetic": "/ˈhʌni/",
+    "meaning": "（爱称）亲爱的；宝贝",
+    "pos": "n."
+  },
+  "assistant": {
+    "phonetic": "/əˈsɪstənt/",
+    "meaning": "店员；助手",
+    "pos": "n."
+  },
+  "deal": {
+    "phonetic": "/diːl/",
+    "meaning": "交易；协议",
+    "pos": "n."
+  },
+  "bill": {
+    "phonetic": "/bɪl/",
+    "meaning": "（餐馆的）账单",
+    "pos": "n."
+  },
+  "donate": {
+    "phonetic": "/dəʊˈneɪt/",
+    "meaning": "（尤指向慈善机构）捐赠，赠送",
+    "pos": "v."
+  },
+  "pound": {
+    "phonetic": "/paʊnd/",
+    "meaning": "英镑（英国货币单位）；磅（重量单位）",
+    "pos": "n."
+  },
+  "cheap": {
+    "phonetic": "/tʃiːp/",
+    "meaning": "便宜的；廉价的",
+    "pos": "adj."
+  },
+  "chocolate": {
+    "phonetic": "/ˈtʃɒklət/",
+    "meaning": "巧克力；朱古力",
+    "pos": "n."
+  },
+  "pocket": {
+    "phonetic": "/ˈpɒkɪt/",
+    "meaning": "衣袋；口袋",
+    "pos": "n."
+  },
+  "pocket money": {
+    "phonetic": "/ˈpɒkɪt ˈmʌni/",
+    "meaning": "（父母给孩子的）零花钱",
+    "pos": "n."
+  },
+  "expectation": {
+    "phonetic": "/ˌekspekˈteɪʃn/",
+    "meaning": "期望；预期",
+    "pos": "n."
+  },
+  "budget": {
+    "phonetic": "/ˈbʌdʒɪt/",
+    "meaning": "做预算；预算",
+    "pos": "v./n."
+  },
+  "in short": {
+    "phonetic": "",
+    "meaning": "总之；简而言之",
+    "pos": ""
+  },
+  "independent": {
+    "phonetic": "/ˌɪndɪˈpendənt/",
+    "meaning": "独立的；自主的",
+    "pos": "adj."
+  },
+  "responsible": {
+    "phonetic": "/rɪˈspɒnsəbl/",
+    "meaning": "负责的；负责任的；可信任的",
+    "pos": "adj."
+  },
+  "mess": {
+    "phonetic": "/mes/",
+    "meaning": "使不整洁；弄脏；弄乱",
+    "pos": "v."
+  },
+  "mess up": {
+    "phonetic": "",
+    "meaning": "出错；搞砸；（在某事上）处理不当",
+    "pos": ""
+  },
+  "responsibility": {
+    "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+    "meaning": "责任；负责",
+    "pos": "n."
+  },
+  "value": {
+    "phonetic": "/ˈvæljuː/",
+    "meaning": "用途；积极作用；价值",
+    "pos": "n."
+  },
+  "account": {
+    "phonetic": "/əˈkaʊnt/",
+    "meaning": "账户",
+    "pos": "n."
+  },
+  "bank": {
+    "phonetic": "/bæŋk/",
+    "meaning": "银行",
+    "pos": "n."
+  },
+  "economics": {
+    "phonetic": "/ˌiːkəˈnɒmɪks/",
+    "meaning": "经济学",
+    "pos": "n."
+  },
+  "whatever": {
+    "phonetic": "/wɒtˈevə(r)/",
+    "meaning": "任何事物；什么都可以",
+    "pos": "pron."
+  },
+  "economist": {
+    "phonetic": "/ɪˈkɒnəmɪst/",
+    "meaning": "经济学家；经济专家",
+    "pos": "n."
+  },
+  "society": {
+    "phonetic": "/səˈsaɪəti/",
+    "meaning": "社会",
+    "pos": "n."
+  },
+  "trade": {
+    "phonetic": "/treɪd/",
+    "meaning": "互相交换；贸易；交易",
+    "pos": "v./n."
+  },
+  "goods": {
+    "phonetic": "/ɡʊdz/",
+    "meaning": "(pl.)商品；货品",
+    "pos": "n."
+  },
+  "exchange": {
+    "phonetic": "/ɪksˈtʃeɪndʒ/",
+    "meaning": "交换；互换",
+    "pos": "n."
+  },
+  "sample": {
+    "phonetic": "/ˈsɑːmpl/",
+    "meaning": "样品；试用产品",
+    "pos": "n."
+  },
+  "saying": {
+    "phonetic": "/ˈseɪɪŋ/",
+    "meaning": "谚语；格言；警句",
+    "pos": "n."
+  },
+  "cost": {
+    "phonetic": "/kɒst/",
+    "meaning": "成本；花费；价钱为",
+    "pos": "n./v."
+  },
+  "even if": {
+    "phonetic": "",
+    "meaning": "即使；纵然；虽然",
+    "pos": ""
+  },
+  "might": {
+    "phonetic": "/maɪt/",
+    "meaning": "可能；可以",
+    "pos": "modal v."
+  },
+  "complete": {
+    "phonetic": "/kəmˈpliːt/",
+    "meaning": "（用以强调）完全的，彻底的；完成；使完整",
+    "pos": "adj./v."
+  },
+  "completely": {
+    "phonetic": "/kəmˈpliːtli/",
+    "meaning": "（用以强调）完全地，彻底地",
+    "pos": "adv."
+  },
+  "self-expression": {
+    "phonetic": "/ˌself ɪkˈspreʃn/",
+    "meaning": "自我表达",
+    "pos": "n."
+  },
+  "creativity": {
+    "phonetic": "/ˌkriːeɪˈtɪvəti/",
+    "meaning": "创造力",
+    "pos": "n."
+  },
+  "require": {
+    "phonetic": "/rɪˈkwaɪə(r)/",
+    "meaning": "需要；依靠",
+    "pos": "v."
+  },
+  "scissors": {
+    "phonetic": "/ˈsɪzəz/",
+    "meaning": "(pl.)剪刀",
+    "pos": "n."
+  },
+  "drama": {
+    "phonetic": "/ˈdrɑːmə/",
+    "meaning": "戏剧",
+    "pos": "n."
+  },
+  "acting": {
+    "phonetic": "/ˈæktɪŋ/",
+    "meaning": "表演",
+    "pos": "n."
+  },
+  "normal": {
+    "phonetic": "/ˈnɔːml/",
+    "meaning": "典型的；正常的",
+    "pos": "adj."
+  },
+  "prefer ...to": {
+    "phonetic": "",
+    "meaning": "更喜欢……",
+    "pos": ""
+  },
+  "pottery": {
+    "phonetic": "/ˈpɒtəri/",
+    "meaning": "陶器；制陶技艺",
+    "pos": "n."
+  },
+  "rather than": {
+    "phonetic": "",
+    "meaning": "而不是",
+    "pos": ""
+  },
+  "position": {
+    "phonetic": "/pəˈzɪʃn/",
+    "meaning": "位置；地方",
+    "pos": "n."
+  },
+  "instrument": {
+    "phonetic": "/ˈɪnstrəmənt/",
+    "meaning": "器具；仪器",
+    "pos": "n."
+  },
+  "sculpture": {
+    "phonetic": "/ˈskʌlptʃə(r)/",
+    "meaning": "雕塑；雕塑作品",
+    "pos": "n."
+  },
+  "sculptor": {
+    "phonetic": "/ˈskʌlptə(r)/",
+    "meaning": "雕塑家；雕刻家",
+    "pos": "n."
+  },
+  "landscape": {
+    "phonetic": "/ˈlændskeɪp/",
+    "meaning": "风景；景色",
+    "pos": "n."
+  },
+  "master": {
+    "phonetic": "/ˈmɑːstə(r)/",
+    "meaning": "能手；大师；擅长……的人",
+    "pos": "n."
+  },
+  "dynasty": {
+    "phonetic": "/ˈdɪnəsti/",
+    "meaning": "王朝；朝代",
+    "pos": "n."
+  },
+  "paint": {
+    "phonetic": "/peɪnt/",
+    "meaning": "绘画",
+    "pos": "v."
+  },
+  "harmony": {
+    "phonetic": "/ˈhɑːməni/",
+    "meaning": "融洽；和谐",
+    "pos": "n."
+  },
+  "path": {
+    "phonetic": "/pɑːθ/",
+    "meaning": "小道；小径",
+    "pos": "n."
+  },
+  "ahead": {
+    "phonetic": "/əˈhed/",
+    "meaning": "在前方",
+    "pos": "adv."
+  },
+  "whoever": {
+    "phonetic": "/huːˈevə(r)/",
+    "meaning": "无论谁；不管什么人",
+    "pos": "pron."
+  },
+  "come across": {
+    "phonetic": "",
+    "meaning": "（偶然）遇见，碰见，发现",
+    "pos": ""
+  },
+  "scare": {
+    "phonetic": "/skeə(r)/",
+    "meaning": "惊吓；使害怕；使恐惧",
+    "pos": "v."
+  },
+  "scared": {
+    "phonetic": "/skeəd/",
+    "meaning": "害怕的；恐惧的；担心的",
+    "pos": "adj."
+  },
+  "vivid": {
+    "phonetic": "/ˈvɪvɪd/",
+    "meaning": "生动的；逼真的",
+    "pos": "adj."
+  },
+  "east": {
+    "phonetic": "/iːst/",
+    "meaning": "东；东方；东部",
+    "pos": "n."
+  },
+  "west": {
+    "phonetic": "/west/",
+    "meaning": "西；西方；西部",
+    "pos": "n."
+  },
+  "peaceful": {
+    "phonetic": "/ˈpiːsfl/",
+    "meaning": "安静的；宁静的",
+    "pos": "adj."
+  },
+  "discovery": {
+    "phonetic": "/dɪˈskʌvəri/",
+    "meaning": "发现；发觉",
+    "pos": "n."
+  },
+  "ancient": {
+    "phonetic": "/ˈeɪnʃənt/",
+    "meaning": "古代的；古老的",
+    "pos": "adj."
+  },
+  "BCE": {
+    "phonetic": "",
+    "meaning": "(= before the Common Era)公元前",
+    "pos": "abbr."
+  },
+  "exploration": {
+    "phonetic": "/ˌekspləˈreɪʃn/",
+    "meaning": "探索；勘查",
+    "pos": "n."
+  },
+  "wheel": {
+    "phonetic": "/wiːl/",
+    "meaning": "轮子；车轮",
+    "pos": "n."
+  },
+  "CE": {
+    "phonetic": "",
+    "meaning": "(= Common Era)公元",
+    "pos": "abbr."
+  },
+  "economy": {
+    "phonetic": "/ɪˈkɒnəmi/",
+    "meaning": "经济",
+    "pos": "n."
+  },
+  "material": {
+    "phonetic": "/məˈtɪəriəl/",
+    "meaning": "材料；原料",
+    "pos": "n."
+  },
+  "fishnet": {
+    "phonetic": "/ˈfɪʃnet/",
+    "meaning": "渔网",
+    "pos": "n."
+  },
+  "war": {
+    "phonetic": "/wɔː(r)/",
+    "meaning": "战争",
+    "pos": "n."
+  },
+  "illness": {
+    "phonetic": "/ˈɪlnəs/",
+    "meaning": "（身体或精神上的）疾病，病",
+    "pos": "n."
+  },
+  "socialism": {
+    "phonetic": "/ˈsəʊʃəlɪzəm/",
+    "meaning": "社会主义",
+    "pos": "n."
+  },
+  "habit": {
+    "phonetic": "/ˈhæbɪt/",
+    "meaning": "习惯",
+    "pos": "n."
+  },
+  "totally": {
+    "phonetic": "/ˈtəʊtəli/",
+    "meaning": "全部地；整个地",
+    "pos": "adv."
+  },
+  "tube": {
+    "phonetic": "/tjuːb/",
+    "meaning": "（金属、塑料、橡皮制成的）管，管子",
+    "pos": "n."
+  },
+  "bone": {
+    "phonetic": "/bəʊn/",
+    "meaning": "骨头",
+    "pos": "n."
+  },
+  "X-ray": {
+    "phonetic": "/ˈeks reɪ/",
+    "meaning": "X射线；X光",
+    "pos": "n."
+  },
+  "award": {
+    "phonetic": "/əˈwɔːd/",
+    "meaning": "颁奖；奖；奖品",
+    "pos": "v./n."
+  },
+  "sir": {
+    "phonetic": "/sɜː(r)/",
+    "meaning": "（贵族头衔，用于爵士或准男爵的名字或姓名前面）爵士；（对不认识男性的尊称）先生",
+    "pos": "n."
+  },
+  "by accident": {
+    "phonetic": "",
+    "meaning": "偶然；意外地",
+    "pos": ""
+  }
+}
