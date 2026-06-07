@@ -1189,14 +1189,8 @@
     </div>
   </div>
 
-  <div class="section-title" id="mainTitle">Yibo语音</div>
-
-  <div id="adminVoiceForm" style="display:none; padding:10px 16px; border-top:1px solid rgba(34,197,94,0.2); margin-top:10px;">
-    <input type="text" id="voiceName" placeholder="语音名称：Yibo英语" style="width:100%;padding:8px;margin-bottom:5px;border-radius:8px;background:var(--bg-input);color:var(--color-text);border:0">
-    <input type="text" id="voiceTime" placeholder="时长：00:15" style="width:100%;padding:8px;margin-bottom:5px;border-radius:8px;background:var(--bg-input);color:var(--color-text);border:0">
-    <input type="text" id="voiceFile" placeholder="音频：voice1.mp3" style="width:100%;padding:8px;margin-bottom:5px;border-radius:8px;background:var(--bg-input);color:var(--color-text);border:0">
-    <button onclick="addVoiceBar()" style="width:100%;background:#00953d;color:#fff;padding:8px;border-radius:8px;border:0">添加语音条</button>
-  </div>
+  
+  
 
   <div class="voice-list" id="voiceList">
   </div>
@@ -2872,17 +2866,6 @@ function renderVoiceList() {
   list.forEach(item => {
     html += `
     <div class="voice-item" data-dur="${item.time}">
-      <img class="voice-avatar" src="logo.jpg">
-      <div class="voice-bar" onclick="playThisVoice(this)" style="position:relative;">
-        <span class="voice-del" onclick="event.stopPropagation();deleteVoice(this,'${item.file}')" 
-        style="display:none;position:absolute;right:-25px;top:50%;transform:translateY(-50%);
-        background:rgba(150,150,150,0.4);color:#fff;width:18px;height:18px;
-        border-radius:50%;font-size:12px;text-align:center;line-height:18px;">×</span>
-        <div class="voice-text">
-          <img class="voice-wave-gif" src="voice-wave.gif" alt="播放中">
-        </div>
-        <div class="voice-time">${item.time}</div>
-      </div>
       <audio class="voice-src" src="${item.file}">
     </div>
     `;
@@ -3716,27 +3699,17 @@ window.renderCet4Spell = window.renderCet4Spell || function(){
       }
     };
 
-    // 👇 输入：正确绿色、错误红色、自动下一格
     input.oninput = function() {
       const i = parseInt(this.dataset.index);
       this.value = this.value.toLowerCase();
       currentInputList[i] = this.value;
 
-      const correctChar = letters[i];
-      if (this.value === correctChar) {
-        this.style.color = "#22c55e";
-        this.style.borderBottomColor = "#22c55e";
-      } else {
-        this.style.color = "#ff4444";
-        this.style.borderBottomColor = "#ff4444";
-      }
-
-      // 自动跳到下一格
+      // 只保留自动跳格，不显示任何颜色
       if (this.value && i < letters.length - 1) {
-        container.children[i+1].focus();
-      }
+    container.children[i+1].focus();
+  }
 
-      // 全部填完自动核对
+      // 全部写完 → 自动判断
       if (currentInputList.filter(Boolean).length === letters.length) {
         checkSpell();
       }
@@ -3746,7 +3719,6 @@ window.renderCet4Spell = window.renderCet4Spell || function(){
   });
 }
 
-// 核对拼写
 window.checkSpell = window.checkSpell || function(){
   const word = spellWordList[currentSpellIndex];
   const userInput = currentInputList.join("");
@@ -3758,10 +3730,15 @@ window.checkSpell = window.checkSpell || function(){
   
   if(correct){
     collectWord(word);
-    // 🔥 正确：图片 + 音效
     showPopup(true);
     playRightSound();
-    
+
+    // 正确 → 整词变绿色
+    inputs.forEach(input => {
+      input.style.color = "#22c55e";
+      input.style.borderBottomColor = "#22c55e";
+    });
+
     setTimeout(()=>{
       nextSpell();
     },1000);
@@ -3770,22 +3747,28 @@ window.checkSpell = window.checkSpell || function(){
   
   // 错误
   wrongCount++;
-  // 🔥 错误：图片 + 音效
   showPopup(false);
   playWrongSound();
-  wrongTip.style.display = "block";
-  
-  // 🔥 标红错误字母
-  const letters = word.split("");
-  inputs.forEach((input, idx)=>{
-    if(input.value !== letters[idx]){
-      input.style.borderBottomColor = "#ff4444";
-      input.style.color = "#ff4444";
-    }
+
+  // 🔥 错误 → 整词全部变红
+  inputs.forEach(input => {
+    input.style.color = "#ff4444";
+    input.style.borderBottomColor = "#ff4444";
   });
-  
-  // 错误3次显示答案
-  if(wrongCount >= maxWrong){
+
+  // 🔥 3 秒后自动清空，重新填写
+  setTimeout(() => {
+    inputs.forEach(input => {
+      input.value = "";
+      input.style.color = "#fff";
+      input.style.borderBottomColor = "#fff";
+    });
+    currentInputList = [];
+    inputs[0].focus();
+  }, 1000);
+
+  // 🔥 答错 3 次 → 显示正确答案
+  if(wrongCount >= 3){
     answerShow.innerText = `正确答案：${word}`;
     answerShow.style.display = "block";
     
@@ -3804,13 +3787,7 @@ window.nextSpell = window.nextSpell || function(){
     return;
   }
   renderCet4Spell();
-  
-  // 🔥 修复：每一题自动播放
-  setTimeout(() => {
-    const word = spellWordList[currentSpellIndex];
-    safeSpeak(word);
-  }, 600);
-}
+};
 
 window.stopCet4SpellAndBack = window.stopCet4SpellAndBack || function(){
   spellWordList = [];
