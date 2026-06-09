@@ -3747,33 +3747,29 @@ window.checkSpell = window.checkSpell || function(){
     return;
   }
   
-  // 错误
+  // ======================
+  // 🔥 错误：不清空、变红、显示答案
+  // ======================
   wrongCount++;
   showPopup(false);
   playWrongSound();
 
-  // 🔥 错误 → 整词全部变红
+  // 🔥 整词全部变红（不清空）
   inputs.forEach(input => {
     input.style.color = "#ff4444";
     input.style.borderBottomColor = "#ff4444";
   });
 
-  // 🔥 3 秒后自动清空，重新填写
-  setTimeout(() => {
-    inputs.forEach(input => {
-      input.value = "";
-      input.style.color = "#fff";
-      input.style.borderBottomColor = "#fff";
-    });
-    currentInputList = [];
-    inputs[0].focus();
-  }, 1000);
-
-  // 🔥 答错 3 次 → 显示正确答案
+  // 🔥 答错 3 次 → 显示答案
   if(wrongCount >= 3){
     answerShow.innerText = `正确答案：${word}`;
     answerShow.style.display = "block";
-    
+
+    // ======================================
+    // 🔥 答错 3 次 → 从收藏里删除 → 回到未学
+    // ======================================
+    removeCollectedWord(word);
+
     setTimeout(()=>{
       nextSpell();
     },1500);
